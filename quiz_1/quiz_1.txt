@@ -1,0 +1,39 @@
+Q1: Which is incorrect variable declaration?
+
+a) $_abc    b) $Abc
+c) $0abc    d) $abC_
+
+Q2: What will be the output for given code:
+
+<?php
+
+$a = 33;
+$b = 44;
+
+function add($a, $b){
+    $a = 22;
+    $b = 33;
+    echo($a + $b);
+}
+
+add($a, $b);
+?>
+
+a) 77   b) 66
+c) 55   d) syntax error!
+
+
+Q3: What is the value of 'X' to access the 'test' variables in function?
+
+<?php
+
+$test = "What does php look like?";
+
+function show(){
+    echo "X";
+}
+show();
+?>
+
+a) $test             b) $GLOBAL[$test]
+c) $GLOBAL['test']   d) $GLOBALS['test'] 
